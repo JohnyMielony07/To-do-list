@@ -1,0 +1,123 @@
+.wrapper
+{
+    width: 70%;
+    margin: auto;
+    font-family: sans-serif;
+}
+fieldset
+{
+    margin: 20px 0;
+    border:1px solid #3C4B9C;
+}
+form, #taskPriority
+{
+    color:#6B6F82;
+}
+#inputs
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+input, select
+{
+    margin: 5px;
+}
+input[type="text"]
+{
+    width: 250px;
+}
+select
+{
+    height: 20px;
+}
+input[type="submit"]
+{
+    width: 80px;
+    background-color: #5F6AA3;
+    color: white;
+    border: 0;
+    height: 20px;
+}
+table
+{
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+thead tr th:first-child
+{
+    width: 5000px;
+}
+#priority
+{
+    min-width: 150px;
+}
+#done
+{
+    min-width: 150px;
+}
+
+thead
+{
+    background-color: #5F6AA3;
+    color: white;
+   
+    margin: 0;
+    padding: 0;
+}
+td, th
+{
+    padding: 15px;
+    text-align: left;
+}
+tbody tr, tfoot tr
+{
+    border:1px solid #3C4B9C;
+    
+}
+tbody, tfoot, #rate, #back, #forward
+{
+    color: #6B6F82;
+}
+a
+{
+    text-decoration: none;
+}
+tfoot td
+{
+    text-align: right;
+    word-spacing: 10px;
+}
+
+tbody tr:hover
+{
+    background-color: #747A9B;   
+}
+
+select
+{
+    border: 0;
+}
+
+.hide
+{
+    display: none;
+}
+
+
+.vis
+{
+    display: inline;
+}
+img
+{
+    width: 0.8em;
+    padding: 0 10px;
+}
+
+
+
+
