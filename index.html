@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <title>Frontend Developer Assignment</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Jan Latoch">
+        <link rel="stylesheet" type="text/css" href="styles/main.css"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th data-sort="name" id="name" class="default">Task name<img class="hide desc" src="images/70%20Basic%20Icons-all-39.svg"><img class="hide asc" src="images/70%20Basic%20Icons-all-40.svg"></th>
+                        <th data-sort="priority" id="priority" class="default">Priority<img class="hide desc" src="images/70%20Basic%20Icons-all-39.svg"><img class="hide asc" src="images/70%20Basic%20Icons-all-40.svg"></th>
+                        <th data-sort="done" id="done" class="default">Done<img class="hide desc" src="images/70%20Basic%20Icons-all-39.svg"><img class="hide asc" src="images/70%20Basic%20Icons-all-40.svg"></th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3" id="footer-data">Rows per page:
+                            <select name="rate">
+                                <option value="fife">5</option>
+                                <option value="ten">10</option>
+                                <option value="fifteen">15</option>
+                            </select>
+                            <span id="number">1-5 of 8</span>
+                            <a href="#" id="back">&lt;</a>
+                            <a href="#" id="forward"> &gt;</a>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <form>
+                <fieldset>
+                    <legend>Add a new task</legend>
+                    <div id="inputs">
+                        <input type="text" id="taskName" placeholder="Your task's name" required>
+                        <select id="taskPriority">
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>  
+                            <option value="High">High</option>  
+                        </select>
+                        <label>Done?<input type="checkbox" name="done" id="taskDone" class="point"></label>
+                        <input type="submit" value="Add">
+                    </div>
+                </fieldset>
+            </form>
+ 
+        </div>
+        <script src="scripts/jquery-3.3.1.js"></script>
+        <script src="scripts/list.js"></script>
+    </body>
+
+</html>
